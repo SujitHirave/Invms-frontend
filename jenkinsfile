@@ -29,7 +29,7 @@ stages{
     
       stage('Deploy') {
       steps {
-        bat 'pm2 restart all'
+        bat 'pm2 restart all --update-env'
       }
     }
     
