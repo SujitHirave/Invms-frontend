@@ -75,18 +75,7 @@ export class HeaderComponent implements OnInit {
 
 
   
-  // public currentUser() {
- 
-  //     this.loginService.getCurrentUser(this.c).subscribe(data => {
-  //       this.b=data;
-  //       // this.router.navigate(['/home']);
-  //       console.log(data);
-
-       
-
-  //     },
-  //       error => console.log(error));
-  //   }
+  
   
 
 }
